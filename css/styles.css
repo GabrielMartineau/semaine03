@@ -75,7 +75,7 @@ header ul{
 }
 
 .menu a{
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     font-family: 'Dosis', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
@@ -142,6 +142,8 @@ header nav a:hover{
 }
 
 article{
+    display: flex;
+    flex-direction: column;
     margin-top: 40px;
     margin-bottom: 40px;
     border-bottom: 5px solid;
@@ -157,4 +159,37 @@ article h3{
 
 article p{
     line-height: 160%;
+}
+
+article .button{
+    padding: 10px 45px 10px 45px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #B7B7B7;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+article .button:hover{
+    background-color: #0E5EA1;
+    color: white;
+}
+
+.wrapper .img-bas{
+    margin-bottom: 39px;
+}
+
+footer{
+    background-color: black;
+    padding: 25px;
+}
+
+footer .wrapper p{
+    color: white;
+    text-align: center;
+    margin: 0;
 }
